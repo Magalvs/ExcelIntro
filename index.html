@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excel Basics</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Introdução ào Excel</h1>
+
+    <div>
+        <h2>1 - Interface</h2>
+
+        <p class="IntroParagraph">A interface do Excel é divídida por números(linhas) e letras(colunas), que, 
+            juntas, formam 'células'; Serão dentro dessas células que iremos armazenar as informações
+            da nossa planilha. </p>
+        <img src="images/excel itens.jpg" class="images" alt="">
+    </div>
+
+    <div>
+        <h2>2 - Iniciando a planilha</h2>
+        
+        <p class="IntroParagraph">Uma boa prática ao criar planilhas é começar nomeando qual 
+            será a função da planilha ou o nome do estabelecimento/negócio que a planilha servirá atráves de uma caixa de texto.</p>
+        <p> Exemplo: Ao criar uma planilha de vendas para a Empresa A, nomeio uma célula de <b>Empresa A: planilha de vendas</b>. </p>
+        <img src="images/nome da planilha.png" alt="">
+        <h3>2.1 - Nomeando as colunas e linhas</h3>
+        <p>Após escolher o nome da nossa planilha, podemos começar a preencher o cabeçalho dela, no caso do exemplo anterior,
+            a planilha de vendas terá os campos <b>DATA</b>, <b>CÓDIGO DE PRODUTO</b>, <b>QUANTIDADE</b>, <b>VALOR UNITÁRIO (R$)</b> e <b>TOTAL</b>.</p>
+        <img src="images/Cabeçalho1.png" alt="">
+        <h3>2.2 - Ajustando a largura das colunas</h3>
+        <p> Perceba, porém, que os itens do cabeçalho estão sendo sobrepostos pelas células adjacentes, para resolver esse 
+            problema, podemos simplesmente clicar na seta no canto superior esquerdo (que selecionará todas as colunas) 
+            e depois dar dois cliques em qualquer uma das divisórias entre as colunas.</p>
+        <img src="images/cabeçalho3.png" alt=""> 
+        <p>Você pode ainda ajustar a largura de cada coluna separadamente arrastando suas divisórias.</p>
+        <h3>2.3 - Centralizando o cabeçalho</h3>
+        <p>Agora que ajustamos a largura dos itens do cabeçalho, podemos centraliza-los dentro das células ou escolher outra 
+            forma de alinhamento</p>
+        <img src="images/alinhamento.png" alt="">
+    </div>
+
+    <div>
+        <h2>3 - Preenchendo os dados</h2>
+
+        <p class="IntroParagraph">Após ter terminado o cabeçalho, iremos ir preenchendo as células com os dados referentes a cada item
+            do cabeçalho inseridos posteriormente.</p> 
+        <p>Por exemplo, na coluna <b>DATA</b>, irei preencher com as datas que cada venda foi realizada; Na coluna <b>CÓDIGO DE PRODUTO</b> 
+            será inserido o código do produto que foi vendido e assim por diante para cada coluna do cabeçalho. </p>
+        <img src="images/cabeçalho4.png" alt="">
+        <h3>3.1 - Atalhos</h3>
+        <p>Note que no exemplo que usei, a coluna da <b>DATA</b> segue um padrão, para facilitar seu preenchimento, podemos selecionar pelo menos 2
+            células seguidas que já estão com as datas e arrastar o quadradinho do canto inferior direito das células selecionadas até a célula desejada.</p>
+        <img src="images/atalho1.png" alt="">
+        <h3>3.2 - Fórmulas</h3>
+        <p>Note também que a coluna <b>TOTAL</b> é a multiplicação dos valores das colunas <b>QUANTIDADE</b> e <b>VALOR UNITÁRIO (R$)</b>, logo, podemos usar a fórmula '<b>=MULT()</b>' 
+            para calcular esse valor e, após isso, realizar o mesmo atalho utilzado anteriormente na coluna das datas para preencher o resto das células.</p>
+        <p>Primeiro, escolhemos uma das células da coluna <b>TOTAL</b> e digitamos '<b>=MULT(</b>', depois, selecionamos as células das colunas das colunas <b>QUANTIDADE</b> e 
+            <b>VALOR UNITÁRIO (R$)</b> que fazem da parte da mesma linha que a célula que escolhemos e damos enter, o que irá calcular o total da venda. </p>
+        <img src="images/fórmulas1.png" alt="">
+        <p>Agora utilizaremos o mesmo atalho para preencher o resto das células.</p>
+        <img src="images/fórmulas2.png" alt="">
+    </div>
+</body>
+</html>
